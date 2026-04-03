@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium custom furniture maker. Handcrafted furniture with passion. Order your dream furniture today."
+    />
+    <meta
+      name="keywords"
+      content="custom furniture, mebel, handcrafted, luxury furniture, interior design"
+    />
+    <meta name="author" content="Mebel Ustasi" />
+    <title>Mebel Ustasi - Premium Custom Furniture Designer</title>
+
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts - Modern Sans-serif -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <span class="logo-icon">✨</span>
+          <span class="logo-text">Mebel Ustasi</span>
+        </div>
+        <ul class="nav-menu">
+          <li>
+            <a href="#home" class="nav-link" data-i18n="nav_home">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link" data-i18n="nav_portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="nav-link" data-i18n="nav_services"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="nav-link"
+              data-i18n="nav_testimonials"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link order-link" data-i18n="nav_order"
+              >Buyurtma Berish</a
+            >
+          </li>
+        </ul>
+        <div class="language-selector">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ru">РУ</button>
+          <button class="lang-btn" data-lang="uz">UZ</button>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="sakura-container">
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+        <div class="sakura"></div>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up" data-i18n="hero_title">
+          Custom Furniture Made With Passion
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-i18n="hero_subtitle">
+          Handcrafted furniture that matches your dreams and lifestyle
+        </p>
+        <button
+          class="cta-button"
+          data-aos="fade-up"
+          onclick="scrollToContact()"
+        >
+          <span data-i18n="nav_order">Buyurtma Berish</span>
+          <span class="button-glow"></span>
+        </button>
+      </div>
+      <div class="hero-image" data-aos="zoom-in">
+        <div class="furniture-placeholder">
+          <i class="fas fa-couch"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 data-i18n="about_title">About the Craftsman</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right">
+            <h3 data-i18n="about_subtitle">Ustaning Tajribasi</h3>
+            <p data-i18n="about_desc1">
+              With over 20 years of craftsmanship experience, I create bespoke
+              furniture pieces that blend functionality with artistic design.
+              Each piece is carefully handcrafted using premium materials and
+              traditional techniques combined with modern innovation.
+            </p>
+            <p data-i18n="about_desc2">
+              My philosophy is simple: quality, attention to detail, and your
+              complete satisfaction. Every furniture piece tells a story and
+              fits perfectly into your space.
+            </p>
+
+            <div class="stats">
+              <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-label" data-i18n="stat_customers"
+                  >Happy Customers</span
+                >
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">20+</span>
+                <span class="stat-label" data-i18n="stat_years"
+                  >Years Experience</span
+                >
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label" data-i18n="stat_satisfaction"
+                  >Satisfaction Rate</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image" data-aos="fade-left">
+            <div class="image-placeholder">
+              <i class="fas fa-hammer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 data-i18n="portfolio_title">Our Portfolio</h2>
+          <p data-i18n="portfolio_desc">
+            Explore our latest furniture designs and custom creations
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="portfolio-filters" data-aos="fade-up">
+          <button
+            class="filter-btn active"
+            data-filter="all"
+            data-i18n="filter_all"
+          >
+            All
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="kitchen"
+            data-i18n="filter_kitchen"
+          >
+            Kitchen
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="bedroom"
+            data-i18n="filter_bedroom"
+          >
+            Bedroom
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="wardrobes"
+            data-i18n="filter_wardrobes"
+          >
+            Wardrobes
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="custom"
+            data-i18n="filter_custom"
+          >
+            Custom
+          </button>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Kitchen Furniture -->
+          <div
+            class="portfolio-item"
+            data-category="kitchen"
+            data-aos="fade-up"
+          >
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <i class="fas fa-sink"></i>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h4>Modern Kitchen Set</h4>
+                    <p>Oak wood with white finish</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bedroom Furniture -->
+          <div
+            class="portfolio-item"
+            data-category="bedroom"
+            data-aos="fade-up"
+          >
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <i class="fas fa-bed"></i>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h4>Luxury Bedroom Set</h4>
+                    <p>Walnut wood with sakura accents</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wardrobes -->
+          <div
+            class="portfolio-item"
+            data-category="wardrobes"
+            data-aos="fade-up"
+          >
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <i class="fas fa-wardrobe"></i>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h4>Designer Wardrobe</h4>
+                    <p>Custom sliding doors</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Custom Design 1 -->
+          <div class="portfolio-item" data-category="custom" data-aos="fade-up">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <i class="fas fa-chair"></i>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h4>Custom Armchair</h4>
+                    <p>Personalized design</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dining Furniture -->
+          <div
+            class="portfolio-item"
+            data-category="kitchen"
+            data-aos="fade-up"
+          >
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <i class="fas fa-utensils"></i>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h4>Dining Table Set</h4>
+                    <p>Handcrafted details</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Living Room -->
+          <div class="portfolio-item" data-category="custom" data-aos="fade-up">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <i class="fas fa-tv"></i>
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h4>Media Console</h4>
+                    <p>Modern entertainment unit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 data-i18n="services_title">Our Services</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <h3 data-i18n="service_design_title">Custom Design</h3>
+            <p data-i18n="service_design_desc">
+              Personalized furniture design tailored to your exact
+              specifications and preferences.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-hammer"></i>
+            </div>
+            <h3 data-i18n="service_handcrafted_title">Handcrafted</h3>
+            <p data-i18n="service_handcrafted_desc">
+              Each piece is meticulously handcrafted by skilled artisans with
+              attention to every detail.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3 data-i18n="service_material_title">Material Selection</h3>
+            <p data-i18n="service_material_desc">
+              Premium materials sourced from trusted suppliers for durability
+              and beauty.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h3 data-i18n="service_delivery_title">Delivery & Installation</h3>
+            <p data-i18n="service_delivery_desc">
+              Safe delivery and professional installation included with all
+              orders.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3 data-i18n="service_warranty_title">Warranty & Support</h3>
+            <p data-i18n="service_warranty_desc">
+              Comprehensive warranty and ongoing support for all furniture
+              pieces.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 data-i18n="service_turnaround_title">Quick Turnaround</h3>
+            <p data-i18n="service_turnaround_desc">
+              Fast production and delivery without compromising on quality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 data-i18n="testimonials_title">Customer Testimonials</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "The quality of the furniture is outstanding! Exactly what I
+              envisioned. Highly recommended!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <h4>Aisha Rahman</h4>
+                <span>Interior Designer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Best furniture maker in the city. The craftsmanship is impeccable
+              and the service is excellent."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div>
+                <h4>Muhammad Hassan</h4>
+                <span>Homeowner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Absolutely stunning work! They listened to every detail and
+              delivered beyond expectations."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div>
+                <h4>Sophia Williams</h4>
+                <span>Architect</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 data-i18n="contact_title">Order Your Custom Furniture</h2>
+          <p data-i18n="contact_subtitle">
+            Get in touch and let's create something beautiful together
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info" data-aos="fade-right">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4 data-i18n="contact_phone_label">Phone</h4>
+                <p>+998 (90) 123-45-67</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 data-i18n="contact_email_label">Email</h4>
+                <p>info@mebelustasi.uz</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4 data-i18n="contact_location_label">Location</h4>
+                <p data-i18n="contact_location_value">Tashkent, Uzbekistan</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="orderForm" data-aos="fade-left">
+            <div class="form-group">
+              <label for="name" data-i18n="form_name_label">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+                data-i18n-attr="placeholder"
+                data-i18n="form_name_placeholder"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone" data-i18n="form_phone_label"
+                >Phone Number</label
+              >
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+                data-i18n-attr="placeholder"
+                data-i18n="form_phone_placeholder"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message" data-i18n="form_message_label"
+                >Your Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Describe your furniture needs..."
+                rows="5"
+                required
+                data-i18n-attr="placeholder"
+                data-i18n="form_message_placeholder"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+              <span data-i18n="form_submit">Send Order Request</span>
+              <span class="button-glow"></span>
+            </button>
+
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2024 Mebel Ustasi. All rights reserved. Premium Custom
+          Furniture Maker.
+        </p>
+        <p>
+          Designed with <span class="heart">♥</span> for furniture enthusiasts
+        </p>
+      </div>
+    </footer>
+
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+      <div class="loader-inner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
